@@ -1,0 +1,16 @@
+/* iPhone SE */
+@media (max-width: 376px) {
+    #description {
+        width: 370px;
+        margin-bottom: 15px;
+    }
+
+    .inputs-box {
+        width: 370px;
+    }
+
+    .s2-contact {
+        display: flex;
+        justify-content: right;
+    }
+}
