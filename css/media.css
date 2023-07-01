@@ -1,16 +1,66 @@
 /* iPhone SE */
-@media (max-width: 376px) {
+@media (max-width: 420px) {
+    .s1 {
+        margin-left: 0;
+    }
+
     #description {
-        width: 370px;
+        width: 330px;
+        margin-left: 20px;
         margin-bottom: 15px;
     }
 
     .inputs-box {
-        width: 370px;
+        width: 330px;
+        margin-left: 20px;
+    }
+
+    header {
+        margin-left: 0;
+        margin-left: 10px;
+    }
+
+    .contact-h1 {
+        font-size: 35px;
+    }
+
+    .contact-h5 {
+        font-size: 14px;
+    }
+
+    .Photos-h1 {
+        margin-left: 0;
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+    .Photos-h5 {
+        margin-left: 0;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
     }
 
     .s2-contact {
-        display: flex;
-        justify-content: right;
+        flex-direction: column;
+    }
+
+    .s2-contact-infos {
+        margin-bottom: 10px;
+    }
+
+    .pictures-box img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    footer div {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        margin-left: 10px;
     }
 }

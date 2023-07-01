@@ -1,8 +1,3 @@
-body {
-    max-width: 1480px;
-    width: 100%;
-}
-
 header {
     margin-left: 144px;
     margin-top: 57px;
@@ -22,8 +17,9 @@ header {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
-    width: 371px;
     margin-top: 7px;
+    max-width: 371px;
+    width: 100%;
 }
 
 .s1 {
@@ -71,7 +67,8 @@ header {
 }
 
 .send-button {
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     height: 59px;
     flex-shrink: 0;
     background-color: #5968F4;
@@ -99,6 +96,7 @@ header {
 .s2-contact {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .s2-contact-infos {
@@ -163,10 +161,11 @@ header {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
-    width: 548px;
     margin-top: 7px;
     margin-bottom: 53px;
     margin-left: 144px;
+    max-width: 544px;
+    width: 100%;
 }
 
 .pictures-box {
@@ -176,6 +175,10 @@ header {
     margin-bottom: 39px;
 }
 
+.pictures-box img {
+    margin-bottom: 20px;
+}
+
 footer {
     height: 372px;
     width: 100%;
@@ -183,6 +186,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-box1 {
@@ -203,7 +207,8 @@ footer {
     font-size: 17px;
     font-family: Helvetica;
     font-weight: 700;
-    width: 295px;
+    max-width: 295px;
+    width: 100%;
     margin-bottom: 27px;
 }
 
