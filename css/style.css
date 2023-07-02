@@ -19,7 +19,7 @@ header {
     font-weight: 400;
     margin-top: 7px;
     max-width: 371px;
-    width: 100%;
+    width: auto;
 }
 
 .s1 {
@@ -38,7 +38,6 @@ header {
     padding: 23px 0 0 21px;
     font-weight: 700;
     font-size: 14px;
-    margin-right: 20px;
     border: 3px solid rgba(212, 211, 211, 0.30);
     background-color: #F8F8F8;
     outline: none;
@@ -165,7 +164,7 @@ header {
     margin-bottom: 53px;
     margin-left: 144px;
     max-width: 544px;
-    width: 100%;
+    width: auto;
 }
 
 .pictures-box {

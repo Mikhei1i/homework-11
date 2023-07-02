@@ -1,13 +1,86 @@
-/* iPhone SE */
+@media (max-width: 1290px) {
+    #description {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 930px) {
+
+    header {
+        margin-left: 20px;
+    }
+
+    .contact-h1,
+    .Photos-h1 {
+        width: 500px;
+    }
+
+    .Photos-h1,
+    .Photos-h5 {
+        margin-left: 20px;
+    }
+
+    .s1 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 534px) {
+    .s1 {
+        margin-left: 0;
+    }
+
+    .s2-contact {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .s2-contact-infos {
+        margin-bottom: 15px;
+    }
+
+    .Photos-h1,
+    .contact-h1 {
+        margin-left: 10px;
+        width: 470px;
+    }
+
+    .Photos-h5,
+    .contact-h5 {
+        margin-left: 10px;
+    }
+
+    .s1-conteiner {
+        max-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        margin-left: 0;
+        margin-left: 10px;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    footer div {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 420px) {
     .s1 {
         margin-left: 0;
     }
 
     #description {
-        width: 330px;
-        margin-left: 20px;
         margin-bottom: 15px;
+        margin-right: 0;
     }
 
     .inputs-box {
@@ -21,7 +94,8 @@
     }
 
     .contact-h1 {
-        font-size: 35px;
+        width: auto;
+        font-size: 25px;
     }
 
     .contact-h5 {
@@ -30,7 +104,8 @@
 
     .Photos-h1 {
         margin-left: 0;
-        font-size: 30px;
+        font-size: 25px;
+        width: auto;
         margin-left: 5px;
     }
 
@@ -62,5 +137,11 @@
         margin-bottom: 15px;
         margin-top: 15px;
         margin-left: 10px;
+    }
+}
+
+@media (max-width: 280px) {
+    body {
+        width: 400px;
     }
 }
